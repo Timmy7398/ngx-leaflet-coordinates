@@ -5,8 +5,7 @@ import { NgxLeafletCoordinatesComponent } from './ngx-leaflet-coordinates.compon
 
 @NgModule({
   declarations: [NgxLeafletCoordinatesComponent],
-  imports: [
-  ],
+  imports: [],
   exports: [NgxLeafletCoordinatesComponent]
 })
 export class NgxLeafletCoordinatesModule { }
