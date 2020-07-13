@@ -8,7 +8,6 @@
     "leaflet.coordinates": "^0.1.5"
   },
   "dependencies": {
-    "tslib": "^2.0.0",
     "leaflet.coordinates": "^0.1.5"
   }
 }
