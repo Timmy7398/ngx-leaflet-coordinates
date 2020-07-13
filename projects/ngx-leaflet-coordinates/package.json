@@ -1,6 +1,24 @@
 {
   "name": "@timmy73/ngx-leaflet-coordinates",
-  "version": "0.0.1",
+  "description": "Angular Wrapper for the Leaflet Coodinates Control",
+  "keywords": [
+    "angular",
+    "leaflet",
+    "control",
+    "coordinates",
+    "leaflet.coordinates"
+  ],
+  "author": {
+    "name": "Thomas FRION", 
+    "email": "frion.thomas@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "license": "MIT",
+  "version": "0.1.0",
   "peerDependencies": {
     "@angular/common": "^10.0.3",
     "@angular/core": "^10.0.3",
