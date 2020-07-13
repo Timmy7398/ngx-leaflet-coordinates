@@ -2,7 +2,9 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import * as L from 'leaflet';
 
-import '../../../../node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.min.js'
+import './utils/NumberFormatter.js'
+import './utils/Control.Coordinates.js';
+// import '../../../../node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.min.js'
 
 @Component({
   selector: 'leaflet-coordinates-control',
@@ -24,7 +26,7 @@ export class NgxLeafletCoordinatesComponent implements OnInit, OnDestroy {
 
   @Input() options : L.Control.CoordinatesOptions = {
     decimals: 4,
-    decimalsSeperator: '.'
+    decimalSeperator: '.'
   };
 
   @Input() set map(map : L.Map) {

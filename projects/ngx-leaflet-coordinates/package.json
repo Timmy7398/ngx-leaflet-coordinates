@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Timmy7398/ngx-leaflet-coordinates.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Timmy7398/ngx-leaflet-coordinates",
   "license": "MIT",
   "version": "0.1.0",
   "peerDependencies": {
