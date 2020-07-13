@@ -70,6 +70,8 @@
             "styles": [
               "projects/demo/src/styles.scss",
               "./node_modules/leaflet/dist/leaflet.css",
+              "./node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.css"
+
             ],
             "scripts": []
           },
