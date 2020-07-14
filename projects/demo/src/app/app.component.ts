@@ -11,6 +11,13 @@ export class AppComponent implements OnInit{
   title = 'demo';
   map : L.Map;
 
+  optionCoord : L.Control.CoordinatesOptions = {
+    decimals: 2,
+    decimalSeperator: ".",
+    useDMS: true,
+    useLatLngOrder: true,
+  }
+
   options = {
     layers: [
       L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '...' })

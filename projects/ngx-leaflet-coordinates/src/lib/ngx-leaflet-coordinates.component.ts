@@ -2,7 +2,7 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import * as L from 'leaflet';
 
-import '../../../../node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.min.js'
+import '/home/thomas/Documents/stage/app-pghm/Leaflet.Coordinates/dist/leaflet.coordinates-0.1.5.min.js'
 
 // import { NumberFormatter } from './NumberFormatter';
 
