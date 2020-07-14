@@ -4,5 +4,6 @@
  */
 
 export * from './index';
+export * from './lib/NumberFormatter';
 export * from './lib/ngx-leaflet-coordinates.component';
 export * from './lib/ngx-leaflet-coordinates.module';

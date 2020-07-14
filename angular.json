@@ -19,7 +19,9 @@
             "production": {
               "tsConfig": "projects/ngx-leaflet-coordinates/tsconfig.lib.prod.json"
             }
-          }
+          },
+          "scripts": [
+          ]
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -73,7 +75,8 @@
               "./node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.css"
 
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {

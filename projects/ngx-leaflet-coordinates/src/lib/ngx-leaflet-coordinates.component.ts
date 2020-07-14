@@ -2,9 +2,9 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import * as L from 'leaflet';
 
-import './utils/NumberFormatter.js'
-import './utils/Control.Coordinates.js';
-// import '../../../../node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.min.js'
+import '../../../../node_modules/leaflet.coordinates/dist/Leaflet.Coordinates-0.1.5.min.js'
+
+// import { NumberFormatter } from './NumberFormatter';
 
 @Component({
   selector: 'leaflet-coordinates-control',
@@ -33,6 +33,9 @@ export class NgxLeafletCoordinatesComponent implements OnInit, OnDestroy {
     if(map){
       this._map = map;
       this.coordinates = L.control.coordinates(this.options).addTo(this.map);
+      // L.NumberFormatter.round = funcDef.round;
+      // console.log(NumberFormatter.round(45.890986, 2, '.'));
+      
     }
   }
 
