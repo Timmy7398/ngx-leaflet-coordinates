@@ -14,8 +14,8 @@ export class AppComponent implements OnInit{
   optionCoord : L.Control.CoordinatesOptions = {
     decimals: 4,
     decimalSeperator: ".",
-    useDMS: true,
     useLatLngOrder: true,
+    useDMM: true
   }
 
   options = {

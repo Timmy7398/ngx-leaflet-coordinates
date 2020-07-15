@@ -10,6 +10,7 @@ declare module 'leaflet' {
             labelTemplateLng      ?: string,
             enableUserInput       ?: boolean,
             useDMS                ?: boolean,
+            useDMM                ?: boolean,
             useLatLngOrder        ?: boolean,
             centerUserCoordinates ?: boolean,
             markerType            ?: any,
@@ -49,7 +50,8 @@ declare module 'leaflet' {
 
         export function round(num : number, dec : number, sep : string) : string;
         export function toDMS(deg : number) : string;
-        export function toUTM(latLng : L.LatLng) : {zone: number, part: string, proj: any};
+        // export function toUTM(latLng : L.LatLng) : {zone: number, part: string, proj: any};
+        export function toDMM(deg: number, dec : number) : string;
         export function createValidNumber(num: string, sep : string) : number | undefined;
     }
 }
