@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
   map : L.Map;
 
   optionCoord : L.Control.CoordinatesOptions = {
-    decimals: 2,
+    decimals: 4,
     decimalSeperator: ".",
     useDMS: true,
     useLatLngOrder: true,
