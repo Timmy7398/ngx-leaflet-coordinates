@@ -1,6 +1,7 @@
 
 import { Component, OnInit, OnDestroy, Input, AfterViewInit } from '@angular/core';
 import * as L from 'leaflet';
+import proj4 from 'proj4';
 
 import '/home/thomas/Documents/stage/app-pghm/Leaflet.Coordinates/dist/leaflet.coordinates-0.1.5.min.js'
 
@@ -15,7 +16,11 @@ export class NgxLeafletCoordinatesComponent implements OnInit, OnDestroy, AfterV
   private _map : L.Map;
   private coordinates : L.Control.Coordinates;
 
-  constructor() { }
+  private readonly src: "+proj=longlat +datum=WGS84 +no_defs"; // Projection WGS84
+
+  constructor() {
+    regist 
+  }
 
   ngOnInit(): void {
   }
