@@ -3,8 +3,5 @@
   "dest": "../../dist/ngx-leaflet-coordinates",
   "lib": {
     "entryFile": "src/public-api.ts"
-  },
-  "whitelistedNonPeerDependencies": [
-    "leaflet.coordinates"
-  ]
+  }
 }

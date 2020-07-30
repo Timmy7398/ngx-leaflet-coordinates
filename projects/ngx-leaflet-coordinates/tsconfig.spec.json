@@ -12,6 +12,6 @@
   ],
   "include": [
     "**/*.spec.ts",
-    "**/*.d.ts", "src/index.ts", "../global.d.ts", "../../index.d.ts"
+    "**/*.d.ts"
   ]
 }
